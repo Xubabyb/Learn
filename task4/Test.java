@@ -10,9 +10,7 @@ public class Test {
             throw new BadCreditHistoryException();
         } catch (BadCreditHistoryException e) {
             //System.out.println("BadHistory");
-        } catch (RuntimeException e) {
-
-        }
+        } 
     }
 
     private static void anotherMethod() {
