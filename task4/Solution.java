@@ -15,8 +15,6 @@ public class Solution {
     public static void main(String[] args) {
         try (Car car = new Car()) {
             car.drive();
-        } catch (Exception e) {
-
-        }
+        } 
     }
 }
